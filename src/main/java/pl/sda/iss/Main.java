@@ -57,15 +57,5 @@ public class Main {
             passTimeRepository.save(passTime);
 
         }
-
-
-
-
-
-
-
-
-
-
-    }
+   }
 }

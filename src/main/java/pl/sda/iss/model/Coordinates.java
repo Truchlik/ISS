@@ -1,7 +1,9 @@
 package pl.sda.iss.model;
 
 import lombok.Data;
+
 import lombok.NoArgsConstructor;
+
 
 import javax.persistence.*;
 import java.util.List;
@@ -21,6 +23,7 @@ public class Coordinates {
         this.passTimes = passTimes;
     }
 
+
     @Id
     @GeneratedValue
     private Long id;
@@ -31,9 +34,6 @@ public class Coordinates {
     @OneToMany
     @JoinColumn(name = "coordinates_id")
     private List<PassTime> passTimes;
-
-
-
 
 
 

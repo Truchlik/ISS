@@ -17,6 +17,7 @@ public class PassTime {
     private Long risetime;
     private int duration;
 
+
     @ManyToOne
     private Coordinates coordinates;
 
