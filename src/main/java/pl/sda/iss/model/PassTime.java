@@ -14,7 +14,9 @@ import javax.persistence.Table;
 public class PassTime {
 
     @Id
-    private Long time;
+    private Long risetime;
+    private int duration;
+
 
     @ManyToOne
     private Coordinates coordinates;
